@@ -1,0 +1,195 @@
+.rings,
+.circle {
+  position: absolute;
+  z-index: -1;
+}
+.rings {
+  top: 15rem;
+  left: -25rem;
+}
+.circle {
+  bottom: 20rem;
+  right: 38rem;
+}
+/* Start Hero section */
+.header {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  height: 80vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.2rem 0 10rem 0;
+}
+#logo {
+  font-size: 3.2rem;
+}
+.scoial-icons {
+  display: flex;
+  gap: 2.4rem;
+  margin-right: 2.4rem;
+}
+.hero-icon {
+  font-size: 3.2rem;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.hero-icon:hover {
+  opacity: 1;
+}
+.hero-img img {
+  position: absolute;
+  right: 0;
+  top: -5%;
+  width: 42vw;
+  max-width: 445px;
+  z-index: -2;
+}
+.hero-context {
+  width: 70%;
+}
+.name {
+  border-bottom: 4px solid var(--main);
+}
+.hero-description {
+  color: var(--white85);
+  width: 60%;
+  line-height: 1.5;
+  margin-bottom: 6.4rem;
+}
+
+/* Start Hero section */
+/* Start Skills section */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+  padding: 8.6rem 0;
+}
+.second-heading {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+.skills-description {
+  color: #aaa;
+}
+/* End Skills section */
+/* Projects Skills section */
+
+.head-projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects {
+  padding: 0 0 4.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+  text-transform: uppercase;
+}
+
+.card-project {
+  position: relative;
+}
+.card-project:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  gap: 3.2rem;
+}
+.projects img {
+  width: 100%;
+  margin-bottom: 1.6rem;
+}
+.threed-heading {
+  margin-bottom: 0.8rem;
+}
+.skill-project {
+  margin-right: 0.8rem;
+}
+/* Projects Skills section */
+
+/* Start Footer section */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6.4rem;
+  padding: 4.8rem 0 9.6rem;
+  border-bottom: 1px solid #aaa;
+}
+.footer-heading {
+  font-size: 7.4rem;
+}
+.footer-description {
+  color: #aaa;
+  line-height: 1.6;
+  margin-top: 3.2rem;
+}
+input,
+textarea {
+  background: none;
+  border-style: none;
+  border-bottom: 1px solid #aaa;
+  padding: 1.6rem;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-family: inherit;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+
+.form-btn {
+  background: none;
+  border: none;
+  margin-top: 2.4rem;
+  cursor: pointer;
+  display: inline-block;
+}
+/* End Footer section */
+/* Start End section */
+.in-the-end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem 0;
+}
+.scoial-icons-footer {
+  display: flex;
+  gap: 2.4rem;
+  margin-right: 2.4rem;
+}
+.footer-icon {
+  font-size: 3.2rem;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer-icon:hover {
+  opacity: 1;
+}
+/* End End section */

@@ -1,0 +1,92 @@
+@media (max-width: 62.5em) {
+  .circle {
+    top: 35rem;
+    right: -90px;
+  }
+  body {
+    padding: 0 25px;
+  }
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .header {
+    height: 75vh;
+  }
+
+  .hero-img img {
+    top: -5%;
+    width: 42vw;
+    max-width: 445px;
+  }
+}
+@media (max-width: 46em) {
+  .header {
+    height: 120vh;
+  }
+  .nav {
+    display: block;
+    text-align: center;
+    margin-top: 0;
+  }
+  .scoial-icons {
+    justify-content: center;
+    margin-top: 0.4rem;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-context {
+    margin-top: 27rem;
+    text-align: center;
+    width: 100%;
+  }
+  .hero-context p {
+    width: 100%;
+  }
+  .hero-img img {
+    display: block;
+  }
+  .primary-heading {
+    font-size: 7.4rem;
+  }
+  .hero-img img {
+    top: -0;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    max-width: 445px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+    margin-top: 3.4rem;
+  }
+}
+@media (max-width: 33em) {
+  .skills {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .head-projects {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .in-the-end {
+    display: block;
+    text-align: center;
+  }
+  .scoial-icons-footer {
+    margin-top: 2.4rem;
+    justify-content: center;
+  }
+}
